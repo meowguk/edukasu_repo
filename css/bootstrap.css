@@ -6300,14 +6300,17 @@ button.close {
 }
 .carousel-control.left {
   background-repeat: repeat-x;
-	background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+/*	hilangkan lis abu2
+	background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%); */
 }
 .carousel-control.right {
   right: 0;
   left: auto;
     background-repeat: repeat-x;
-	background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);
+/*	hilangkan lis abu2
+	background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%); */
 }
+
 .carousel-control:hover,
 .carousel-control:focus {
   color: #fff;
@@ -6722,4 +6725,18 @@ button.close {
 
 .imageatas {
 	float:right;
+	margin-top:2%;
+}
+
+.judulweb {
+	float:left;
+	font-family:Tahoma;
+	font-size:5em;
+	margin-top:2%;
+}
+
+footer {
+	text-align:center;
+	clear:both;
+	color:black;
 }
