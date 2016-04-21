@@ -7,7 +7,7 @@
 <script src="js/bootstrap.js"></script>
 <script src="js/jquery-2.2.0.min.js"></script>
 
-<title>Home - Edukasu.or.id</title>
+<title>Contact - Edukasu.or.id</title>
 </head>
 
 <body>
@@ -52,20 +52,62 @@
 		<nav class="navbar navbar-inverse">
 		  <div class="container">
 		    <ul class="nav navbar-nav">
-		      <li class="active"><a href="index.html">Home</a></li>
+		      <li><a href="index.html">Home</a></li>
 		      <li><a href="love.html">Love</a></li>
 		      <li><a href="adopt.html">Adopt</a></li>
-		      <li><a href="contact.html">Contact</a></li>
+   		      <li class="active"><a href="contact.html">Contact</a></li>
 		      <li><a href="parents.html">Parents</a></li>
 		    </ul>
 		  </div>
 		</nav>
 
-<!--bikin kotak kolom contact us-->
+<!--bikin kotak kolom contact us pakai bootstrap-->
+  <form class="form-horizontal" role="form">
+    <div class="form-group">
+      <label class="control-label col-sm-4" for="nama">Nama:</label>
+      <div class="col-sm-4">
+        <input type="nama" class="form-control" id="nama"/>
+      </div>
+    </div>
+  </form>
+  
+  <form class="form-horizontal" role="form">
+    <div class="form-group">
+      <label class="control-label col-sm-4" for="email">Email:</label>
+      <div class="col-sm-4">
+        <input type="email" class="form-control" id="email"/>
+      </div>
+    </div>
+  </form>
 
+  <form class="form-horizontal" role="form">
+	<div class="form-group">
+      <label class="control-label col-sm-4" for="judul">Judul:</label>
+      <div class="col-sm-4">
+        <input type="judul" class="form-control" id="judul"/>
+      </div>
+    </div>
+  </form>
+  
+  <form class="form-horizontal" role="form">
+    <div class="form-group">
+      <label class="control-label col-sm-4" for="pesan">Pesan:</label>
+      <div class="col-sm-4">
+      	<textarea class="form-control" rows="5" id="pesan"></textarea>
+      </div>
+    </div>
+   </form>
+   
+   <div class="form-group">        
+      <div class="col-sm-offset-4 col-sm-4">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
 
-
-	</div>
+<br/>
+<br/>
+<br/>
+</div>
 </body>
 
 <footer>
