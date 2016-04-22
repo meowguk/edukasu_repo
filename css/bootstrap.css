@@ -6737,6 +6737,13 @@ button.close {
 	margin-top:2%;
 }
 
+.whyadopt {
+	float:left;
+	font-family: Tahoma;
+	font-size: 2em;
+	
+}
+
 footer {
 	text-align:center;
 	clear:both;
