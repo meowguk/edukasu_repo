@@ -6741,7 +6741,6 @@ button.close {
 	float:left;
 	font-family: Tahoma;
 	font-size: 2em;
-	
 }
 
 /*bikin ada jarak antar image di galery*/
@@ -6861,6 +6860,15 @@ button.close {
 	font-size:x-large;
 }
 
+/* image di halaman parents */
+.fotoanidef {
+	float:left;
+	margin: 0 20px;
+}
+
+.parents1 {
+	font-size:large;
+}
 footer {
 	text-align:center;
 	clear:both;
