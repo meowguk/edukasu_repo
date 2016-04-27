@@ -6850,6 +6850,17 @@ button.close {
   margin-top:37%;
 }
 
+/* kasih warna judul orange */
+.judul_orange {
+	color:#ED6F0B;
+	font-size: xx-large;
+}
+
+/* content */
+.isi_modal {
+	font-size:x-large;
+}
+
 footer {
 	text-align:center;
 	clear:both;
