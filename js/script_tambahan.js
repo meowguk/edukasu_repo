@@ -21,3 +21,19 @@ function readMore3() {
 	else
 		document.getElementById("readMore3").style.display="none";
 }
+
+function readMore4() {
+	var temp=document.getElementById("readMore4").style.display;
+	if(temp=="none")
+		document.getElementById("readMore4").style.display="block";
+	else
+		document.getElementById("readMore4").style.display="none";
+}
+
+function readMore5() {
+	var temp=document.getElementById("readMore5").style.display;
+	if(temp=="none")
+		document.getElementById("readMore5").style.display="block";
+	else
+		document.getElementById("readMore5").style.display="none";
+}
