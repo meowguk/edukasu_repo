@@ -14,4 +14,10 @@ function readMore2() {
 		document.getElementById("readMore2").style.display="none";
 }
 
-
+function readMore3() {
+	var temp=document.getElementById("readMore3").style.display;
+	if(temp=="none")
+		document.getElementById("readMore3").style.display="block";
+	else
+		document.getElementById("readMore3").style.display="none";
+}

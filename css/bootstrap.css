@@ -6874,3 +6874,14 @@ footer {
 	clear:both;
 	color:black;
 }
+
+
+/* halaman love */
+.imgceritaawal {
+	float:left;
+	margin: 0 20px;
+}
+
+.love {
+	font-size:large;
+}
