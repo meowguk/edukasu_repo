@@ -6875,17 +6875,18 @@ button.close {
 .parents1 {
 	font-size:large;
 }
+
 footer {
 	text-align:center;
 	clear:both;
 	color:black;
-	border-radius:4%;
 }
 
 h5 {
 	background-color:#ED6F0B;
 	padding-top:2%;
 	padding-bottom:2%;
+	border-radius:4px;
 }
 
 /* halaman love */
