@@ -5906,6 +5906,8 @@ button.close {
 .modal-header {
   padding: 15px;
   /* border-bottom: 1px solid #e5e5e5; */
+  color:#ED6F0B;
+  font-size:xx-large;
 }
 .modal-header .close {
   margin-top: -2px;
@@ -5916,7 +5918,7 @@ button.close {
 }
 .modal-body {
   position: relative;
-  padding: 15px;
+  padding: 0 15px 15px 15px;
 }
 .modal-footer {
   padding: 15px;
@@ -6732,15 +6734,15 @@ button.close {
 
 .judulweb {
 	float:left;
-	font-family:Tahoma;
-	font-size:4em;
+	font-size:5em;
 	margin-top:2%;
+	color:#db680a;
 }
 
 .whyadopt {
 	float:left;
-	font-family: Tahoma;
 	font-size: 2em;
+	color:#ED6F0B;
 }
 
 /*bikin ada jarak antar image di galery*/
@@ -6766,12 +6768,14 @@ button.close {
   position:absolute;
   overflow: hidden;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color:#f9b985;
+  /* ganti background color hover background-color: rgba(255, 255, 255, 0.7); */
   top: -200px;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: all 0.1s ease-out 0.5s;
   transition: all 0.1s ease-out 0.5s;
+  border-radius: 4%;
 }
 
 .hovereffect:hover .overlay {
@@ -6840,7 +6844,8 @@ button.close {
   -ms-transform: translateY(0px);
   transform: translateY(0px);
   /*box-shadow: 0 0 5px #000; */
-  color: #ED6F0B;
+  color:#db680a;
+;
   /*border: 1px solid #000; */
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
@@ -6851,7 +6856,7 @@ button.close {
 
 /* kasih warna judul orange */
 .judul_orange {
-	color:#ED6F0B;
+	color:#db680a;
 	font-size: xx-large;
 }
 
@@ -6864,6 +6869,7 @@ button.close {
 .fotoanidef {
 	float:left;
 	margin: 0 20px;
+	border-radius: 4%;
 }
 
 .parents1 {
@@ -6873,13 +6879,20 @@ footer {
 	text-align:center;
 	clear:both;
 	color:black;
+	border-radius:4%;
 }
 
+h5 {
+	background-color:#ED6F0B;
+	padding-top:2%;
+	padding-bottom:2%;
+}
 
 /* halaman love */
 .imgceritaawal {
 	float:left;
 	margin: 0 20px;
+	border-radius:4%;
 }
 
 .love {
